@@ -33,6 +33,52 @@ Mrunali Deshmukh
 B.Sc. Information Technology Graduate
 
 
+## ⚙️ How to Run the Project
+
+### Prerequisites
+- Java JDK 17
+- MySQL Server
+- IntelliJ IDEA
+- MySQL Connector/J (JDBC Driver)
+
+### Setup Instructions
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/deshmukhmrunali31-wq/Hospital-Management-System-Java.git
+```
+
+**2. Open the project**
+
+Open the downloaded project folder in IntelliJ IDEA.
+
+**3. Configure MySQL**
+
+- Start your MySQL Server.
+- Create the required hospital database.
+- Configure the database name, username and password in your Java database connection code.
+- Make sure the MySQL Connector/J driver is added to the project.
+
+Example JDBC URL:
+
+```java
+jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME
+```
+
+**4. Run the application**
+
+- Open `HospitalManagementSystem.java` in IntelliJ IDEA.
+- Run the class containing the `main()` method.
+- Follow the menu displayed in the console.
+
+### Important Note
+
+Replace `YOUR_DATABASE_NAME` with your actual database name.
+
+Do not upload your real database password or private credentials to GitHub.
+
+
 ## 📸 Project Screenshots
 
 ### Screenshot 1
